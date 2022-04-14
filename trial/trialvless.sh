@@ -49,5 +49,5 @@ echo -e "Link None TLS  : ${vlesslink2}"
 echo -e "=================================" | 
 echo -e " ${green}Aktif Selama   : $masaaktif Hari"
 echo -e "=================================" | 
-echo -e "Script Installer By : HaluVPN" | 
+echo -e "Script Installer By : JUANGUSTAVVO" | 
 echo -e "=================================" |

@@ -87,7 +87,7 @@ echo -e "  $Lred      )           (         )   .   ,    ( /(     "
 echo -e "  $Lred     /( (     (   )\ )   ( /(    ) (    )\())     "
 echo -e "  $Lred    (_)))\  _ )\ (()/(   )\())  /( )\  ((_)\      "
 echo -e "  $CYAN ━━━$red(\e[93m_$red)\e[93m_$red(\e[93m_$red)(\e[93m_$red((\e[93m_$red)$CYAN━$red)(\e[93m_$red))$CYAN━$red((\e[93m_$red)\\e[93m__$red)(\e[93m_$red)((\e[93m_$red)(\e[93m__$red((\e[93m_$red)$CYAN━━━━━ "
-echo -e "   \E[44;1;39m      ⇱ Premium Server Script By Haluboy ⇲       \E[0m"
+echo -e "   \E[44;1;39m      ⇱ Premium Server Script By Juangustavvo ⇲       \E[0m"
 echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ "
   echo -e "  $green Isp Name             :$white  $ISP"
   echo -e "  $green Domain               :$Lyellow  $domain"
@@ -111,14 +111,15 @@ echo -e "   [${green}02${NC}]${color1} •$white SSTP - L2TP - PPTP - Wireguard 
 echo -e "   [${green}03${NC}]${color1} •$white Shadowsocks & ShadowsocksR (${color2}menu-shadowsocks${color3})$NC"
 echo -e "   [${green}04${NC}]${color1} •$white V2ray Vmess & Vless (${color2}menu-v2ray${color3})$NC"
 echo -e "   [${green}05${NC}]${color1} •$white Trojan & TrojanGO (${color2}menu-trojan${color3})$NC"
-echo -e "   [${green}06${NC}]${color1} •$white Backup (${color2}menu-backup${color3})$NC"
-echo -e "   [${green}07${NC}]${color1} •$white Trial Account (${color2}menu-trial${color3})$NC"
-echo -e "   [${green}08${NC}]${color1} •$white System Tools (${color2}menu-tools${color3}) $NC"
+echo -e "   [${green}06${NC}]${color1} •$white  GRPC (${color2}grpcmenu${color3})$NC"
+echo -e "   [${green}07${NC}]${color1} •$white Backup (${color2}menu-backup${color3})$NC"
+echo -e "   [${green}08${NC}]${color1} •$white Trial Account (${color2}menu-trial${color3})$NC"
+echo -e "   [${green}09${NC}]${color1} •$white System Tools (${color2}menu-tools${color3}) $NC"
 echo ""
 echo -e "   [${green}00${NC}]${color1} •$white $bd Back to exit Menu \033[1;32m<\033[1;33m<\033[1;31m<\033[1;31m"
 echo ""
 echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ $NC"
-echo -e "   \E[44;1;39m                ⇱ HaluVPN PROJECT ⇲              \E[0m"
+echo -e "   \E[44;1;39m                ⇱ OASISTORE ⇲              \E[0m"
 echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ $NC"
 echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ $NC"
 echo -e "  $green Client Name    ${color1}•$Lyellow $Name"
@@ -145,15 +146,18 @@ menu-v2ray
 menu-trojan
 ;;
 6 | 06)
-menu-backup
+grpcmenu
 ;;
 7 | 07)
-menu-trial
+menu-backup
 ;;
 8 | 08)
-menu-tools
+menu-trial
 ;;
 9 | 09)
+menu-tools
+;;
+10 | 10)
 installbot
 ;;
 0 | 00)

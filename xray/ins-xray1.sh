@@ -345,8 +345,8 @@ END
 # / / Installation Xray Service
 cat > /etc/systemd/system/xray.service << END
 [Unit]
-Description=Xray Service By Akbar Maulana
-Documentation=https://t.me/Akbar218
+Description=Xray Service By JUANGUSTAVVO
+Documentation=https://t.me/juangustavvo
 After=network.target nss-lookup.target
 
 [Service]
@@ -463,8 +463,8 @@ END
 # Installing Trojan Go Service
 cat > /etc/systemd/system/trojan-go.service << END
 [Unit]
-Description=Trojan-Go Service By Akbar Maulana
-Documentation=https://t.me/Akbar218
+Description=Trojan-Go Service By JUANGUSTAVVO
+Documentation=https://t.me/juangustavvo
 After=network.target nss-lookup.target
 
 [Service]

@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/Akbar218
+# My Telegram : https://t.me/juangustavvo
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -52,4 +52,5 @@ echo -e "Expired  : $exp"
 echo -e "=========================="
 echo -e "Link TR  : ${trojanlink}"
 echo -e "=========================="
-echo -e "Script By HaluVPN"
+echo -e "Script By JUANGUSTAVVO"
+echo -e "JVGSTORE"

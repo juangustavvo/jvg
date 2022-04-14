@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/Akbar218
+# My Telegram : https://t.me/juangustavvo
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -63,4 +63,5 @@ echo -e "Link TLS    : ${xrayvless1}"
 echo -e "========================="
 echo -e "Link No TLS : ${xrayvless2}"
 echo -e "========================="
-echo -e "Script By HaluVPN"
+echo -e "Script By JUANGUSTAVVO"
+echo -e "JVGSTORE"

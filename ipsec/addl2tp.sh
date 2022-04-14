@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/Akbar218
+# My Telegram : https://t.me/juangustavvo
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -67,5 +67,5 @@ Password   : $VPN_PASSWORD
 Created    : $hariini
 Expired    : $exp
 ============================
-Script By HaluVPN
-EOF
+Script By JUANGUSTAVVO
+JVGSTORE

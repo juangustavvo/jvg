@@ -70,7 +70,7 @@ case "$x" in
    ;;
    6 | 06)
    clear
-   domen
+   host
    break
    ;;
    0 | 00)
