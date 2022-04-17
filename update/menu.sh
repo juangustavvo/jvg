@@ -108,10 +108,9 @@ echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━
 echo -e ""
 echo -e "   [${green}01${NC}]${color1} •$white SSH & OpenVPN (${color2}menu-ssh${color3})$NC"
 echo -e "   [${green}02${NC}]${color1} •$white SSTP - L2TP - PPTP - Wireguard (${color2}menu-vpn${color3})$NC"
-echo -e "   [${green}03${NC}]${color1} •$white Shadowsocks & ShadowsocksR (${color2}menu-shadowsocks${color3})$NC"
+echo -e "   [${green}03${NC}]${color1} •$white XGPRC (${color2}menu-xgprc${color3})$NC"
 echo -e "   [${green}04${NC}]${color1} •$white V2ray Vmess & Vless (${color2}menu-v2ray${color3})$NC"
 echo -e "   [${green}05${NC}]${color1} •$white Trojan & TrojanGO (${color2}menu-trojan${color3})$NC"
-echo -e "   [${green}06${NC}]${color1} •$white GRPC (${color2}menu-xgrpc${color3})$NC"
 echo -e "   [${green}07${NC}]${color1} •$white Backup (${color2}menu-backup${color3})$NC"
 echo -e "   [${green}08${NC}]${color1} •$white Trial Account (${color2}menu-trial${color3})$NC"
 echo -e "   [${green}09${NC}]${color1} •$white System Tools (${color2}menu-tools${color3}) $NC"
@@ -137,7 +136,7 @@ menu-ssh
 menu-vpn
 ;;
 3 | 03)
-menu-shadowsocks
+menu-xgprc
 ;;
 4 | 04)
 menu-v2ray
@@ -146,18 +145,15 @@ menu-v2ray
 menu-trojan
 ;;
 6 | 06)
-menu-xgrpc
-;;
-7 | 07)
 menu-backup
 ;;
-8 | 08)
+7 | 07)
 menu-trial
 ;;
-9 | 09)
+8 | 08)
 menu-tools
 ;;
-10 | 10)
+9 | 09)
 installbot
 ;;
 0 | 00)

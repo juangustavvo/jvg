@@ -115,7 +115,7 @@ case "$x" in
    ;;
    13 | 13)
    clear
-   bbr
+   swapkvm
    break
       ;;
    14 | 14)
